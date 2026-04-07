@@ -7,11 +7,9 @@ Created by Gabriel Wong
 def setup_menu():
     # [Combo name] : [Price, "Description of items in the combo"]
     burger_menu = {
-        "Value": [10.50, "Beef burger, fries, cola"],
-        "Cheesy": [11.50, "Cheeseburger, fries, cola"],
-        "Super": [15.00, "Double burger, large fries, shake"],
-        "Veggie": [12.50, "Plant-based burger, salad, juice"],
-        "Deluxe": [18.50, "Premium burger, onion rings, thickshake"]
+        "Value": [10.50, "Beef burger, Fries, Fizzy drink"],
+        "Cheezy": [11.50, "Cheeseburger, Fries, Fizzy drink"],
+        "Super": [15.00, "Cheeseburger, Large fries, Smoothie"]
     }
     return burger_menu
 
