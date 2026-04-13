@@ -55,7 +55,7 @@ if __name__ == "__main__":
             easygui.msgbox("You selected: Delete ")
 
         elif selection == "Output All":
-            # Component 7: Output All
+            
             print("\n--- Current Menu ---")
             for name, details in current_menu.items():
                 print(f"{name}: {details[1]} - ${details[0]:.2f}")
