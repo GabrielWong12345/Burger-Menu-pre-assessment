@@ -16,7 +16,7 @@ def setup_menu():
     return burger_menu
 
 def display_menu(menu):
-    """Formats the dictionary into a readable string for EasyGui"""
+    # Formats the dictionary into a readable string for EasyGui
     menu_string = ""
     for name, details in menu.items():
         menu_string += f"COMBO: {name.upper()}\nItems: {details[1]}\nPrice: ${details[0]:.2f}\n\n"
