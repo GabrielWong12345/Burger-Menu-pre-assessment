@@ -14,7 +14,7 @@ def setup_menu():
         "Super": [15.00, "Cheeseburger, Large fries, Smoothie"]
     }
     return burger_menu
-
+# Component 3: View Menu
 def display_menu(menu):
     # Formats the dictionary into a readable string for EasyGui
     menu_string = ""
@@ -40,9 +40,10 @@ if __name__ == "__main__":
         if selection == "Exit" or selection is None:
             easygui.msgbox("Program closing. Goodbye!")
             run_program = False
-        
+        # Component 3
         elif selection == "View Menu":
             display_menu(current_menu)
+            
         # Component 4: Add Combo
         elif selection == "Add Combo":
             new_name = easygui.enterbox("Enter the name of the new combo:", "Add Combo")
