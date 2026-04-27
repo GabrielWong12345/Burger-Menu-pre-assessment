@@ -9,9 +9,9 @@ import easygui
 def setup_menu():
     # [Combo name] : [Price, "Description of items in the combo"]
     burger_menu = {
-        "Value": [10.50, "Beef burger, Fries, Fizzy drink"],
-        "Cheezy": [11.50, "Cheeseburger, Fries, Fizzy drink"],
-        "Super": [15.00, "Cheeseburger, Large fries, Smoothie"]
+        "Value": [7.69, "Beef burger, Fries, Fizzy drink"],
+        "Cheezy": [8.69, "Cheeseburger, Fries, Fizzy drink"],
+        "Super": [10.69, "Cheeseburger, Large fries, Smoothie"]
     }
     return burger_menu
 # Component 3: View Menu
